@@ -1,0 +1,123 @@
+1. Testfall (falsche Eingabe einer Option)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+t
+Use only available chars for input![Enter] zum Schließen der Konsole
+
+
+
+
+2. Testfall (keine Ganzzahl als Wert für die Länge der Zahlenreihe)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+a
+Wieviele Zahlen möchten Sie in die Zahlenreihe eingeben?
+zehn
+Only integers allowed![Enter] zum Schließen der Konsole
+
+
+
+
+3. Testfall (keine Ganzzahl als Wert für die Eingabe in die Zahlenreihe)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+a
+Wieviele Zahlen möchten Sie in die Zahlenreihe eingeben?
+10
+Zahl eingeben:
+eins
+Only integers allowed![Enter] zum Schließen der Konsole
+
+
+
+
+4. Testfall (keine Zahl als Wert für den Zinssatz)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+b
+Geben Sie den gewünschten Zinssatz in Gleitkommaform an (Bsp.: 0.0143 = 1.43%)
+null    
+Only floating points allowed![Enter] zum Schließen der Konsole
+
+
+5. Testfall (keine Zahlen in die Zahlenreihe eingegeben)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+c
+Es wurden noch keine Werte für die Berechnung eingegeben!
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+
+6. Testfall (kein Zinssatz angegeben)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+a
+Wieviele Zahlen möchten Sie in die Zahlenreihe eingeben?
+3
+Zahl eingeben:
+10
+Zahl eingeben:
+20
+Zahl eingeben:
+30
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+c
+Der Kapitalwert wird nun berechnet:
+C0: 56.8242
+
+7. Testfall (Zufallszahlen)
+
+Menü:
+1. Zahlen in Zahlenreihe eingeben (a)
+2. Zinssatz eingeben in Gleitkommaform angeben (Bsp.: 0.0143 = 1.43%) (b)
+3. Kapitalwert berechnen (c)
+4. 10 Zufallszahlen generieren und berechnen (d)
+5. Beenden (x)
+d
+Es wird eine Zahlenreihe von 10 Zufallszahlen generiert und in der Liste abgespeichert!
+Es wird ein automatisch generierter Zinssatz erzeugt und der Kapitalwert berechnet:
+Der Kapitalwert wird nun berechnet:
+C0: 493
+
+8. Testfall (Sehr lange falsche Eingabe für Zahlen in der Zahlungsreihe)
+
+
